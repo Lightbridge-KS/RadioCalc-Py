@@ -1,0 +1,13 @@
+---
+title: "Main"
+---
+
+```{python}
+import sys
+sys.path.insert(1, './radcalc')
+import radcalc.BSA as BSA
+```
+
+```{python}
+BSA.calc_Haycock(10, 20)
+```
